@@ -1,13 +1,13 @@
 function getShippingCost(country) {
   let message;
   switch (country) {
-    case "Australia":
+    case "China":
       message = "Shipping to China will cost 100 credits";
       break;
-    case "China":
+    case "Chile":
       message = "Shipping to Chile will cost 250 credits";
       break;
-    case "Chile":
+    case "Australia":
       message = "Shipping to Australia will cost 170 credits";
       break;
     case "Jamaica":
